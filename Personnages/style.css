@@ -1,0 +1,213 @@
+body{
+    margin: 0px;
+    background-color: #000;
+    /* box-sizing: border-box; */
+}
+@font-face {
+    font-family: myFirstFont;
+    src: url(../SSF4ABUKET.ttf);
+}
+@font-face{
+    font-family: pFont;
+    src: url(../RobotoCondensed-Regular.ttf);
+}
+h1, h2, h3, h4{
+    font-family: myFirstFont;
+    color: #c63e28;
+}
+#content{
+    margin: auto;
+    max-width: 800px;
+}
+#base{ 
+    background-color: #c63e28;
+    padding: 2px 0px ;
+    z-index: 999;
+    position: fixed;
+    right: 0;
+    top: 20%;
+}
+#base p{
+    color: white;
+    margin: 0px;
+    font-size: 10px;
+    margin-left: 2px;
+}
+#base ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    list-style-type: none;
+    align-items: center;
+    padding: 1em;
+}
+#base a{
+    text-decoration: none;
+    text-transform: uppercase;
+}
+#base img{
+    padding: 15px 0;
+    height: 15px;
+}
+.logo-rs{
+    height: 30px;
+}
+
+#main-menu {
+    background-color: #c63e28;
+    padding: 0px;
+    transition: 1s;
+    width: 100%;
+    z-index: 999;
+    transition: 1s;
+    position: fixed;
+}
+#main-menu.menu-scroll{
+    background-color: #7f6763;
+    padding: 2px;
+    transition: 1s;
+    width: 100%;
+    z-index: 999;
+    transition: 1s;
+}
+a{
+    color: white;
+    font-family: pFont;
+}
+#main-menu ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    align-items: center;
+}
+#main-menu a {
+    text-decoration: none;
+    text-transform: uppercase;
+}
+#main-menu img{
+    height: 26px;
+}
+
+#list-pf{ 
+    background-image: url(../img.base/bg.png);
+    padding: 2px 0px ;
+    width: 100%;
+    z-index: 999;
+}
+#list-pf li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#list-pf p{
+    color: white;
+    margin: 0px;
+    font-size: 10px;
+    margin-left: 2px;
+}
+#list-pf ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    align-items: center;
+}
+#list-pf a{
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.logo-pf{
+    width: 25px;
+}
+.nom{
+    text-align: center;
+}
+#img-jeu{
+    height: 660px;
+    width: 100%;
+}
+#content{
+    position: relative;
+}
+#l1p2{
+    left: 460px;
+}
+#content img{
+    padding-top: 5em;
+}
+#l1, #l2{
+    display: flex;
+}
+#l2p1{
+    top: 703px;
+}
+#l2{
+    padding-bottom: 40px;
+}
+#l2p2{
+    top: 703px;
+    left: 460px;
+}
+.perso{
+    padding-right: 10em;
+}
+.images {
+    max-width: 300px;
+    opacity: 1;
+    display: inline;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    height: 500px;
+}
+.stats {
+    width: 300px;
+    height: 500px;
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+.stats:hover {
+    opacity: 0.8;
+}
+#perso{
+    flex-direction: row;
+    display: flex;
+    justify-content: space-evenly;
+}
+#snc-blanc{
+    margin-left: 40px;
+}
+#logo-fin img{
+    height: 77px;
+}
+#logo-fin{ 
+    background-color: black;
+    padding: 2px 0px ;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#logo-fin ul{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+}
+#fin{
+    background-color: black;
+    padding: 2px 0px ;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#fin ul{
+    display: flex;
+    list-style-type: none;
+}
+#fin button{
+    color: grey;
+    background-color: #000;
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 10px;
+}

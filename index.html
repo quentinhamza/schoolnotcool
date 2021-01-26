@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8" />
+        <link href="Accueil/style.css" rel="stylesheet" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <title>SNC - Accueil</title>
+    </head>
+    <body>
+        <div>
+            <nav id="base">
+                <ul>
+                    <li>
+                        <img src="img.base/logo-studio.svg" alt="logo studio">
+                    </li>
+                    <li> <a href="https://www.twitch.tv/" target="blank"> <img class="logo-rs" src="img.base/twitch.png" alt="Twitch"> </a></li> 
+                    <li> <a href="https://discord.com/" target="blank"> <img class="logo-rs" src="img.base/discord.png" alt="Discord"> </a></li>
+                    <li> <a href="https://YouTube.com/" target="blank"> <img class="logo-rs" src="img.base/youtube.png" alt="YouTube"> </a></li>
+                    <li> <a href="https://facebook.com/" target="blank"> <img class="logo-rs" src="img.base/facebook.png" alt="Facebook"> </a></li>
+                    <li> <a href="https://twitter.com/" target="blank"> <img class="logo-rs" src="img.base/twitter.png" alt="Twitter"> </a></li>
+                    <li> <a href="https://www.instagram.com/" target="blank"> <img class="logo-rs" src="img.base/instagram.png" alt="Instagram"> </a></li>
+                </ul>
+            </nav>
+        </div>
+        <div>
+            <nav id="main-menu">
+            <ul>
+                <li>
+                    <a href="index.html">
+                    <img src="img.base/SNC-blanc.svg" alt="logo jeu"></a>
+                </li>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="Personnages/index.html">Personnages</a></li> 
+                <li><a href="Telechargez/index.html">Téléchargez</a></li> 
+                <li><a href="Boutique/index.html">Boutique</a></li> 
+                <li><a href="Medias/index.html">Médias</a></li> 
+                <li><a href="Communaute/index.html">Communaute</a></li>
+            </ul>
+            </nav>
+        </div>
+        <div id="content">
+            <div id="video"> 
+                <iframe width="100%" height="660" src="https://www.youtube.com/embed/h_9aCAEUZlk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div>
+                <div id="CTA">
+                    <div id="jouer">
+                        <a href="Game/index.html" target="blank"> JOUER </a>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <h1>School Not Cool : Disponible dès maintenant</h1>
+            </div>
+            <div>
+                <h2>sur toutes les plateformes</h2>
+            </div>
+            <div id="list-pf">
+                <ul>
+                    <li> <a href="https://www.playstation.com/fr-fr/" target="blank"> <img class="logo-pf" src="logo.pf/playstation-logo.png" alt="logo PS"> </a> <p>Playstation </p></li> <!-- GO TO JAQUETTE PS5-->
+                    <li> <a href="https://www.xbox.com/fr-FR" target="blank"> <img class="logo-pf" src="logo.pf/xbox-logo.png" alt="logo Xbox"> </a> <p>Xbox</p></li><!-- GO TO JAQUETTE Xbox Series X-->
+                    <li> <a href="https://www.nintendo.fr/index.html" target="blank"> <img class="logo-pf" src="logo.pf/nintendo-switch.png" alt=""> </a> <p>Nintendo Switch</p></li><!--GO TO JAQUETTE SWITCH-->
+                    <li> <a href="https://www.microsoft.com/fr-fr/store/apps/windows" target="blank"> <img class="logo-pf" src="logo.pf/windows.png" alt=""> </a> <p>Windows Store</p></li>
+                    <li> <a href="https://www.apple.com/chfr/?afid=p238%7Cs1koixxbg-dc_mtid_187079nc38483_pcrid_487613446216_pgrid_18019115472_&cid=aos-ch-kwgo-brand--slid--bran-product-" target="blank"> <img class="logo-pf" src="logo.pf/apple.png" alt=""> </a><p>Apple Store</p> </li>
+                </ul>
+            </div>
+            <div class="cadre-diapo">
+                <img class="diapo" src="img.base/Caroussel/menu.png" alt="image1"> 
+                <img class="diapo" src="img.base/Caroussel/ingame1.png" alt="image2"> 
+                <img class="diapo" src="img.base/Perso/Charline-hover.jpg" alt="image3"> 
+                <button class="precedent" aria-label="précédent" onclick="boutons(-1)">❮</button>
+                <button class="suivant" aria-label="suivant" onclick="boutons(1)">❯</button>
+            </div>
+            <div class=cadre-demo>
+                <button class="demo" onclick="actifIndic(1)">1</button>
+                <button class="demo" onclick="actifIndic(2)">2</button>
+                <button class="demo" onclick="actifIndic(3)">3</button>
+            </div>
+            <script src="Accueil/slider.js"></script>
+            <div id="Notrejeu">
+                <p>
+                    Notre jeu, School Not Cool (SNC), est un jeu de combat 2D réalisé en peu de temps par une équipe motivée se plongeant dans l'inconnu. Après de nombreuses heures de documentation et de recherche,
+                    nous sommes heureux de pouvoir vous présenter notre prototype, qui sera finalisé si vous le souhaitez pour le bonheur des joueurs du monde entier. SNC est un Free-to-Play contenant des achats intégrés
+                    disponible sur toutes les plateformes. Plongez dans l'univers de SNC, et sortez en vainqueur, si vous en avez les compétences.
+                </p>
+            </div>
+            <div>
+                <h1 id="Mode-de-jeu">Mode de jeux</h1>
+            </div>
+            <div>
+                <p id="vous">Vous trouverez ci-dessous la liste exhausitive des modes de jeu disponible dans School Not Cool.</p>
+            </div>
+            <div id="mode-de-jeu">
+                <div class="illustrated-content regular">
+                <div class="txt-content">
+                    <h3>1P Mode</h3>
+                    <p>
+                        Jouez au mode 1P ! </br>
+                        Entrez dans la peau de nos personnages.</br>
+                        Vous serez seul contre tous, </br>
+                        pour assimilerez les héros. </br>
+                    </p>
+                    <a href="Telechargez/index.html" target="_blank">Je  veux jouer</a>
+                </div>
+                <img src="img.base/Caroussel/menu.png" alt="IMAGE JEU" />
+                </div>
+                <div class="illustrated-content reverse">
+                <div class="txt-content">
+                    <h3>Training Mode</h3>
+                    <p>
+                        Jouez à ce mode de jeu </br>
+                        pour vous entraîner contre des bots. </br>
+                        Devenez maître dans l'art du combat, </br>
+                        Tony et Romain n'auront plus aucun secret pour vous ! </br>
+                    </p>
+                    <a href="Telechargez/index.html" target="_blank">Je  veux jouer</a>
+                </div>
+                <img src="img.base/Caroussel/menu.png" alt="IMAGE JEU" />
+                </div>
+                <div class="illustrated-content regular">
+                <div class="txt-content">
+                    <h3>2P Mode</h3>
+                    <p>
+                        Envie de montrer a vos amis </br>
+                        qui est le plus fort ? C'est ici </br>
+                        que ça se passe ! Alors faites chauffez </br>
+                        les vos mains !
+                    </p>
+                    <a href="Telechargez/index.html" target="_blank">Je  veux jouer</a>
+                </div>
+                <img src="img.base/Caroussel/menu.png" alt="Caraiboy - Ah Sh*t" />
+                </div>
+                <div class="illustrated-content reverse">
+                    <div class="txt-content">
+                        <h3>Option</h3>
+                        <p>
+                            Réglez les paramètres du jeu </br>
+                            dans cet onglet afin d'améliorer </br>
+                            votre expérience de jeu ! Graphismes, </br>
+                            touches.
+                        </p>
+                        <a href="Telechargez/index.html" target="_blank">Je  veux jouer</a>
+                    </div>
+                    <img src="img.base/Caroussel/menu.png" alt="Photo Shooting" />
+                </div>
+            </div>
+            </div>
+            <div id="logo-fin">
+                <ul>
+                    <li> <img src="img.base/logo-studio.svg" alt="logo studio"></li>
+                    <li id="snc-blanc"> <img src="img.base/SNC-blanc.svg" alt="logo jaquette"></li>
+            </div>
+            <div id="list-pf-fin"> <!-- ADD BG IMAGE-->
+                <ul>
+                    <li> <a href="" target="blank"> <img class="logo-pf" src="logo.pf/playstation-logo.png" alt="logo PS"> </a> <p>Playstation</p></li>
+                    <li> <a href="" target="blank"> <img class="logo-pf" src="logo.pf/xbox-logo.png" alt="logo Xbox"> </a> <p>Xbox</p></li>
+                    <li> <a href="" target="blank"> <img class="logo-pf" src="logo.pf/nintendo-switch.png" alt=""> </a> <p>Nintendo Switch</p></li>
+                    <li> <a href="https://www.microsoft.com/fr-fr/store/apps/windows" target="blank"> <img class="logo-pf" src="logo.pf/windows.png" alt=""> </a> <p>Windows Store</p></li>
+                    <li> <a href="https://www.apple.com/chfr/?afid=p238%7Cs1koixxbg-dc_mtid_187079nc38483_pcrid_487613446216_pgrid_18019115472_&cid=aos-ch-kwgo-brand--slid--bran-product-" target="blank"> <img class="logo-pf" src="logo.pf/apple.png" alt=""> </a><p>Apple Store</p> </li>
+                </ul>
+            </div>
+            <div id="fin">
+                <ul>
+                    <li> <button type="button"> <a href=""></a> Politique de confidentialité </button></li>
+                </ul>
+                <ul>
+                    <li> <button type="button"> <a href=""></a> Conditions d'utilisation</button></li>
+                </ul>
+            </div>
+        </div>
+    </body>
